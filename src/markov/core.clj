@@ -2,12 +2,6 @@
   (:require [clojure.java.io :as io])
   (:gen-class))
 
-(def gettysburg-address "/Volumes/Macintosh HD/Users/srseverance/Learning/corpus/gettysburg-address.txt")
-(def simple-txt "/Volumes/Macintosh HD/Users/srseverance/Learning/Clojure/markov/resources/simple.txt")
-(def sicp "/Volumes/Macintosh HD/Users/srseverance/Downloads/sicp.texi")
-(def the-common-law "/Volumes/Macintosh HD/Users/srseverance/Downloads/the-common-law.txt")
-(def flatland "/Volumes/Macintosh HD/Users/srseverance/Downloads/flatland.txt")
-
 (def number-of-prefix 2)
 (def starting-prefix (repeat number-of-prefix :not-a-word))
 
