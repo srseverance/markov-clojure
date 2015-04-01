@@ -22,7 +22,7 @@ be the most idiomatic.
 
     $ java -jar markov-0.1.0-SNAPSHOT.jar file-name how-many-words
 
-** License **
+**License**
 
 Copyright © 2015 Shannon Severance
 All rights reserved.
