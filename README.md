@@ -1,7 +1,7 @@
 **markov-clojure**
 
-In _The Practice of
-Programming_[http://cm.bell-labs.com/cm/cs/tpop/errata.html] Brian
+In [_The Practice of
+Programming_](http://cm.bell-labs.com/cm/cs/tpop/) Brian
 Kerninghan and Rob Pike implement a random text generator using a
 Markov chain algorithm in five different languages as a way to compare
 the languages. Markov-clojure is an implementation of the same
