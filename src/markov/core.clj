@@ -40,4 +40,5 @@
   "I don't do a whole lot ... yet."
   [& args]
   (let [[file-name n-str] args]
-    (generate (build file-name) (Integer/parseInt n-str))))
+    (generate (build file-name) (Integer/parseInt n-str))
+    (println)))
