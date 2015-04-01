@@ -1,34 +1,28 @@
-# markov
+**markov-clojure**
 
-FIXME: description
+In _The Practice of
+Programming_[http://cm.bell-labs.com/cm/cs/tpop/errata.html] Brian
+Kerninghan and Rob Pike implement a random text generator using a
+Markov chain algorithm in five different languages as a way to compare
+the languages. Markov-clojure is an implementation of the same
+algorithm in Clojure.
 
-## Installation
+The design decisions made in _The Practice of Programming_ (PoP) have
+been followed except for the sentinal values used. In PoP `"\"` is
+used for both the starting prefix words and last suffix. Being
+dynamically typed, markov-clojure is not limited to strings for the
+sentinal values. Instead the keyword `:not-a-word` is used for the
+starting prefix words. The terminating suffix is `nil` which naturally
+flows from the use of `nil` to terminate sequences in Clojure.
 
-Download from http://example.com/FIXME.
+A caution: I am new to Clojure programming, so this implementation may not
+be the most idiomatic.
 
-## Usage
+**usage**
 
-FIXME: explanation
+    $ java -jar markov-0.1.0-SNAPSHOT.jar file-name how-many-words
 
-    $ java -jar markov-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
+** License **
 
 Copyright © 2015 Shannon Severance
 All rights reserved.
